@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Guest List Manager</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1>Event Guest List Manager</h1>
+        <!-- This is where I create the form -->
+        <form id="guest-form">
+            <!-- I declare the input type here and put a placeholder -->
+            <input type="text" id="guest-name" placeholder="Enter guest name" required>
+            <!-- Here I give the user the options of choosing the category of the guest -->
+            <select id="guest-category">
+                <option value="Family">Family</option>
+                <option value="Friend">Friend</option>
+                <option value="Colleague">Colleague</option>
+            </select>
+            <!-- I introduce a button after which the user finishes filling the form they use it to submit the form to add a guest -->
+            <button type="submit">Add Guest</button>
+        </form>
+        <!-- This is where the names of the guest will appear in an unordered line -->
+        <ul id="guest-list"></ul>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

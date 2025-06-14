@@ -1,0 +1,101 @@
+/* I give the body a nice green colour and a nice font and use padding to add space inside the element */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem;
+    background-color: rgb(3, 60, 60);
+}
+/* margin auto to center the main section and give it a width of 600 */
+main {
+    max-width: 600px;
+    margin: auto;
+    background: #ffff;
+    padding: 3rem;
+    border-radius: 40px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select {
+    flex: 1;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tag {
+  font-size: 0.8em;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+  color: white;
+}
+
+.Family { 
+background-color: lightskyblue; 
+border-radius: 10px; 
+margin-right: 5px;
+padding: 4px 8px; 
+}
+
+.Friend { 
+background-color: lightpink;
+border-radius: 10px; 
+margin-right: 5px;
+padding: 4px 8px;  
+}
+
+.Colleague { 
+background-color: lightslategray;
+border-radius: 10px; 
+margin-right: 5px;
+padding: 4px 8px;  
+}
+
+.rsvp {
+  cursor: pointer;
+  padding: 4px 8px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.edit {
+    border-radius: 10px;
+    padding: 4px 8px;
+    margin-right: 5px;
+    border: none;
+    background-color: lightgreen;
+}
+
+.delete {
+    border-radius: 10px;
+    padding: 4px 8px;
+    margin-right: 5px;
+    background-color: rgb(189, 82, 82);
+    border: none;
+}
