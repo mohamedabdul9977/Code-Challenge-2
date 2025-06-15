@@ -30,7 +30,6 @@ This is a simple web application that allows users to manage an event guest list
 
 - Delete – remove the guest
 
-- Watch the list update instantly!
 
 
 ## Project Structure
