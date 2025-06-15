@@ -15,11 +15,30 @@ This is a simple web application that allows users to manage an event guest list
 - Edit guest names after adding
 - Color tags to indicate guest category
 
-## Project Structure
-
-
 ## How to Use
-1. Open `index.html` in your browser
-2. Enter a guest name and select a category
-3. Click "Submit"
-4. Use the buttons to edit, remove, or RSVP
+- Clone or download this repository.
+
+- Open index.html in a browser.
+
+- Type a name into the input field and click “Add Guest”.
+
+- Use the buttons next to each guest for:
+
+- Toggle RSVP – change status
+
+- Edit – update the guest’s name
+
+- Delete – remove the guest
+
+- Watch the list update instantly!
+
+
+## Project Structure
+```
+event-guest-list-manager/
+│
+├── index.html       # Page layout
+├── style.css        # Styling for the app
+└── src/
+    └── index.js     # JavaScript logic 
+```
